@@ -85,8 +85,10 @@ body{
 }
 .section-3{
     display: flex;
-    background-image: url(images/shapes/dream-bg.png);
+    background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
+    background-position: left;
+    background-size: 25%;
 }
 .half-width-1{
     width: 40%;
@@ -98,7 +100,22 @@ body{
 .develop-without{
     line-height: 150%;
     font-weight: 700;
-    font-size: 40px;
-    
+    font-size: 40px; 
 }
+.section-4{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-position-y: bottom;
+    background-size: 15%;
+}
+.half-width-2{
+    width: 50%;
+    padding-left: 8%;
+}
+.half-width-2 img{
+    width: 50%;
+    padding-left: 120px;
+}    
 
