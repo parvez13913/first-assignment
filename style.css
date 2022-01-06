@@ -76,12 +76,29 @@ body{
     border-radius: 5%;
     margin-left:2.5%; 
 }
-.section-2,img,h3,p{
+.section-2,.illustrator,h3,.whose{
     padding-right: 10%;
     padding-left: 10%;
 }
-.section-2,p{
+.section-2,.whose{
     padding-bottom: 5%;
 }
-
+.section-3{
+    display: flex;
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width-1{
+    width: 40%;
+}
+.half-width-1 img{
+    width: 70%;
+    padding-left: 21%;
+}
+.develop-without{
+    line-height: 150%;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
 
